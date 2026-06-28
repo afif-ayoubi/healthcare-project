@@ -1,0 +1,218 @@
+country_key,country,iso3,iso2,iso_numeric,g_whoregion
+abw,Aruba,ABW,AW,533,Americas
+afg,Afghanistan,AFG,AF,4,Eastern Mediterranean
+ago,Angola,AGO,AO,24,Africa
+aia,Anguilla,AIA,AI,660,Americas
+alb,Albania,ALB,AL,8,Europe
+and,Andorra,AND,AD,20,Europe
+ant,Netherlands Antilles,ANT,AN,530,Historical / Other
+are,United Arab Emirates,ARE,AE,784,Eastern Mediterranean
+arg,Argentina,ARG,AR,32,Americas
+arm,Armenia,ARM,AM,51,Europe
+asm,American Samoa,ASM,AS,16,Western Pacific
+atg,Antigua and Barbuda,ATG,AG,28,Americas
+aus,Australia,AUS,AU,36,Western Pacific
+aut,Austria,AUT,AT,40,Europe
+aze,Azerbaijan,AZE,AZ,31,Europe
+bdi,Burundi,BDI,BI,108,Africa
+bel,Belgium,BEL,BE,56,Europe
+ben,Benin,BEN,BJ,204,Africa
+bfa,Burkina Faso,BFA,BF,854,Africa
+bgd,Bangladesh,BGD,BD,50,South-East Asia
+bgr,Bulgaria,BGR,BG,100,Europe
+bhr,Bahrain,BHR,BH,48,Eastern Mediterranean
+bhs,Bahamas,BHS,BS,44,Americas
+bih,Bosnia and Herzegovina,BIH,BA,70,Europe
+blr,Belarus,BLR,BY,112,Europe
+blz,Belize,BLZ,BZ,84,Americas
+bmu,Bermuda,BMU,BM,60,Americas
+bol,Bolivia,BOL,BO,68,Americas
+bra,Brazil,BRA,BR,76,Americas
+brb,Barbados,BRB,BB,52,Americas
+brn,Brunei Darussalam,BRN,BN,96,Western Pacific
+btn,Bhutan,BTN,BT,64,South-East Asia
+bwa,Botswana,BWA,BW,72,Africa
+caf,Central African Republic,CAF,CF,140,Africa
+can,Canada,CAN,CA,124,Americas
+che,Switzerland,CHE,CH,756,Europe
+chl,Chile,CHL,CL,152,Americas
+chn,China,CHN,CN,156,Western Pacific
+civ,Côte d'Ivoire,CIV,CI,384,Africa
+cmr,Cameroon,CMR,CM,120,Africa
+cod,Democratic Republic of the Congo,COD,CD,180,Africa
+cog,Congo,COG,CG,178,Africa
+cok,Cook Islands,COK,CK,184,Western Pacific
+col,Colombia,COL,CO,170,Americas
+com,Comoros,COM,KM,174,Africa
+cpv,Cabo Verde,CPV,CV,132,Africa
+cri,Costa Rica,CRI,CR,188,Americas
+cub,Cuba,CUB,CU,192,Americas
+cuw,Curaçao,CUW,CW,531,Americas
+cym,Cayman Islands,CYM,KY,136,Americas
+cyp,Cyprus,CYP,CY,196,Europe
+cze,Czechia,CZE,CZ,203,Europe
+deu,Germany,DEU,DE,276,Europe
+dji,Djibouti,DJI,DJ,262,Eastern Mediterranean
+dma,Dominica,DMA,DM,212,Americas
+dnk,Denmark,DNK,DK,208,Europe
+dom,Dominican Republic,DOM,DO,214,Americas
+dza,Algeria,DZA,DZ,12,Africa
+ecu,Ecuador,ECU,EC,218,Americas
+egy,Egypt,EGY,EG,818,Eastern Mediterranean
+eri,Eritrea,ERI,ER,232,Africa
+esp,Spain,ESP,ES,724,Europe
+est,Estonia,EST,EE,233,Europe
+eth,Ethiopia,ETH,ET,231,Africa
+fin,Finland,FIN,FI,246,Europe
+fji,Fiji,FJI,FJ,242,Western Pacific
+fra,France,FRA,FR,250,Europe
+fsm,Micronesia (Federated States of),FSM,FM,583,Western Pacific
+gab,Gabon,GAB,GA,266,Africa
+gbr,United Kingdom,GBR,GB,826,Europe
+geo,Georgia,GEO,GE,268,Europe
+gha,Ghana,GHA,GH,288,Africa
+gin,Guinea,GIN,GN,324,Africa
+gmb,Gambia,GMB,GM,270,Africa
+gnb,Guinea-Bissau,GNB,GW,624,Africa
+gnq,Equatorial Guinea,GNQ,GQ,226,Africa
+grc,Greece,GRC,GR,300,Europe
+grd,Grenada,GRD,GD,308,Americas
+grl,Greenland,GRL,GL,304,Europe
+gtm,Guatemala,GTM,GT,320,Americas
+gum,Guam,GUM,GU,316,Western Pacific
+guy,Guyana,GUY,GY,328,Americas
+hkg,"Hong Kong SAR, China",HKG,HK,344,Western Pacific
+hnd,Honduras,HND,HN,340,Americas
+hrv,Croatia,HRV,HR,191,Europe
+hti,Haiti,HTI,HT,332,Americas
+hun,Hungary,HUN,HU,348,Europe
+idn,Indonesia,IDN,ID,360,Western Pacific
+ind,India,IND,IN,356,South-East Asia
+irl,Ireland,IRL,IE,372,Europe
+irn,Iran,IRN,IR,364,Eastern Mediterranean
+irq,Iraq,IRQ,IQ,368,Eastern Mediterranean
+isl,Iceland,ISL,IS,352,Europe
+isr,Israel,ISR,IL,376,Europe
+ita,Italy,ITA,IT,380,Europe
+jam,Jamaica,JAM,JM,388,Americas
+jor,Jordan,JOR,JO,400,Eastern Mediterranean
+jpn,Japan,JPN,JP,392,Western Pacific
+kaz,Kazakhstan,KAZ,KZ,398,Europe
+ken,Kenya,KEN,KE,404,Africa
+kgz,Kyrgyzstan,KGZ,KG,417,Europe
+khm,Cambodia,KHM,KH,116,Western Pacific
+kir,Kiribati,KIR,KI,296,Western Pacific
+kna,Saint Kitts and Nevis,KNA,KN,659,Americas
+kor,South Korea,KOR,KR,410,Western Pacific
+kwt,Kuwait,KWT,KW,414,Eastern Mediterranean
+lao,Lao PDR,LAO,LA,418,Western Pacific
+lbn,Lebanon,LBN,LB,422,Eastern Mediterranean
+lbr,Liberia,LBR,LR,430,Africa
+lby,Libya,LBY,LY,434,Eastern Mediterranean
+lca,Saint Lucia,LCA,LC,662,Americas
+lka,Sri Lanka,LKA,LK,144,South-East Asia
+lso,Lesotho,LSO,LS,426,Africa
+ltu,Lithuania,LTU,LT,440,Europe
+lux,Luxembourg,LUX,LU,442,Europe
+lva,Latvia,LVA,LV,428,Europe
+mac,"Macao SAR, China",MAC,MO,446,Western Pacific
+mar,Morocco,MAR,MA,504,Eastern Mediterranean
+mco,Monaco,MCO,MC,492,Europe
+mda,Moldova,MDA,MD,498,Europe
+mdg,Madagascar,MDG,MG,450,Africa
+mdv,Maldives,MDV,MV,462,South-East Asia
+mex,Mexico,MEX,MX,484,Americas
+mhl,Marshall Islands,MHL,MH,584,Western Pacific
+mkd,North Macedonia,MKD,MK,807,Europe
+mli,Mali,MLI,ML,466,Africa
+mlt,Malta,MLT,MT,470,Europe
+mmr,Myanmar,MMR,MM,104,South-East Asia
+mne,Montenegro,MNE,ME,499,Europe
+mng,Mongolia,MNG,MN,496,Western Pacific
+mnp,Northern Mariana Islands,MNP,MP,580,Western Pacific
+moz,Mozambique,MOZ,MZ,508,Africa
+mrt,Mauritania,MRT,MR,478,Africa
+msr,Montserrat,MSR,MS,500,Americas
+mus,Mauritius,MUS,MU,480,Africa
+mwi,Malawi,MWI,MW,454,Africa
+mys,Malaysia,MYS,MY,458,Western Pacific
+nam,Namibia,NAM,,516,Africa
+ncl,New Caledonia,NCL,NC,540,Western Pacific
+ner,Niger,NER,NE,562,Africa
+nga,Nigeria,NGA,NG,566,Africa
+nic,Nicaragua,NIC,NI,558,Americas
+niu,Niue,NIU,NU,570,Western Pacific
+nld,Netherlands (Kingdom of the),NLD,NL,528,Europe
+nor,Norway,NOR,NO,578,Europe
+npl,Nepal,NPL,NP,524,South-East Asia
+nru,Nauru,NRU,NR,520,Western Pacific
+nzl,New Zealand,NZL,NZ,554,Western Pacific
+omn,Oman,OMN,OM,512,Eastern Mediterranean
+pak,Pakistan,PAK,PK,586,Eastern Mediterranean
+pan,Panama,PAN,PA,591,Americas
+per,Peru,PER,PE,604,Americas
+phl,Philippines,PHL,PH,608,Western Pacific
+plw,Palau,PLW,PW,585,Western Pacific
+png,Papua New Guinea,PNG,PG,598,Western Pacific
+pol,Poland,POL,PL,616,Europe
+pri,Puerto Rico,PRI,PR,630,Americas
+prk,North Korea,PRK,KP,408,South-East Asia
+prt,Portugal,PRT,PT,620,Europe
+pry,Paraguay,PRY,PY,600,Americas
+pse,Occupied Palestinian territory,PSE,PS,275,Eastern Mediterranean
+pyf,French Polynesia,PYF,PF,258,Western Pacific
+qat,Qatar,QAT,QA,634,Eastern Mediterranean
+rou,Romania,ROU,RO,642,Europe
+rus,Russia,RUS,RU,643,Europe
+rwa,Rwanda,RWA,RW,646,Africa
+sau,Saudi Arabia,SAU,SA,682,Eastern Mediterranean
+scg,Serbia & Montenegro,SCG,YU,891,Historical / Other
+sdn,Sudan,SDN,SD,729,Eastern Mediterranean
+sen,Senegal,SEN,SN,686,Africa
+sgp,Singapore,SGP,SG,702,Western Pacific
+slb,Solomon Islands,SLB,SB,90,Western Pacific
+sle,Sierra Leone,SLE,SL,694,Africa
+slv,El Salvador,SLV,SV,222,Americas
+smr,San Marino,SMR,SM,674,Europe
+som,Somalia,SOM,SO,706,Eastern Mediterranean
+srb,Serbia,SRB,RS,688,Europe
+ssd,South Sudan,SSD,SS,728,Africa
+stp,Sao Tome and Principe,STP,ST,678,Africa
+sur,Suriname,SUR,SR,740,Americas
+svk,Slovakia,SVK,SK,703,Europe
+svn,Slovenia,SVN,SI,705,Europe
+swe,Sweden,SWE,SE,752,Europe
+swz,Eswatini,SWZ,SZ,748,Africa
+sxm,Sint Maarten (Dutch part),SXM,SX,534,Americas
+syc,Seychelles,SYC,SC,690,Africa
+syr,Syria,SYR,SY,760,Eastern Mediterranean
+tca,Turks and Caicos Islands,TCA,TC,796,Americas
+tcd,Chad,TCD,TD,148,Africa
+tgo,Togo,TGO,TG,768,Africa
+tha,Thailand,THA,TH,764,South-East Asia
+tjk,Tajikistan,TJK,TJ,762,Europe
+tkl,Tokelau,TKL,TK,772,Western Pacific
+tkm,Turkmenistan,TKM,TM,795,Europe
+tls,Timor-Leste,TLS,TL,626,South-East Asia
+ton,Tonga,TON,TO,776,Western Pacific
+tto,Trinidad and Tobago,TTO,TT,780,Americas
+tun,Tunisia,TUN,TN,788,Eastern Mediterranean
+tur,Türkiye,TUR,TR,792,Europe
+tuv,Tuvalu,TUV,TV,798,Western Pacific
+tza,Tanzania,TZA,TZ,834,Africa
+uga,Uganda,UGA,UG,800,Africa
+ukr,Ukraine,UKR,UA,804,Europe
+ury,Uruguay,URY,UY,858,Americas
+usa,United States of America,USA,US,840,Americas
+uzb,Uzbekistan,UZB,UZ,860,Europe
+vct,Saint Vincent and the Grenadines,VCT,VC,670,Americas
+ven,Venezuela,VEN,VE,862,Americas
+vgb,British Virgin Islands,VGB,VG,92,Americas
+vnm,Vietnam,VNM,VN,704,Western Pacific
+vut,Vanuatu,VUT,VU,548,Western Pacific
+wlf,Wallis and Futuna,WLF,WF,876,Western Pacific
+wsm,Samoa,WSM,WS,882,Western Pacific
+yem,Yemen,YEM,YE,887,Eastern Mediterranean
+zaf,South Africa,ZAF,ZA,710,Africa
+zmb,Zambia,ZMB,ZM,894,Africa
+zwe,Zimbabwe,ZWE,ZW,716,Africa

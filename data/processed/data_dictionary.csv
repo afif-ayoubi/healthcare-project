@@ -1,0 +1,19 @@
+variable,label,unit,definition
+e_inc_num,Estimated incident TB cases,count,WHO-derived estimate of people who developed TB during the year.
+e_inc_100k,TB incidence rate,"cases per 100,000","Estimated incident TB cases per 100,000 population."
+c_newinc,Notified new and relapse cases,count,New and relapse TB cases officially notified to national programmes.
+c_newinc_100k,Case notification rate,"cases per 100,000","Notified new and relapse cases per 100,000 population."
+c_cdr,Case detection / diagnosis and treatment coverage,%,Notified new and relapse cases divided by estimated incident cases.
+coverage_gap_pct,Coverage gap,percentage points,100 minus calculated diagnosis and treatment coverage.
+notification_gap_num,Estimated notification difference,count,Estimated incident cases minus notified cases; it is not proof that every person in the difference was untreated.
+e_mort_num,Estimated TB deaths,count,"Estimated deaths from TB, including HIV-associated TB deaths where included in the source measure."
+e_mort_100k,TB mortality rate,"deaths per 100,000","Estimated TB deaths per 100,000 population."
+case_fatality_pct,Case fatality ratio,%,Estimated TB deaths divided by estimated incident TB cases.
+e_inc_tbhiv_num,HIV-associated incident TB,count,Estimated incident TB cases among people living with HIV.
+e_mort_tbhiv_num,TB deaths among people with HIV,count,Estimated TB deaths among people living with HIV.
+hiv_incidence_share_pct,HIV-associated share of incident TB,%,Estimated HIV-associated incident TB divided by all incident TB.
+e_inc_rr_num,Estimated RR/MDR-TB incidence,count,Estimated incident rifampicin-resistant or multidrug-resistant TB cases.
+rr_incidence_share_pct,RR/MDR-TB share of incident TB,%,Estimated RR/MDR-TB incidence divided by all incident TB.
+e_pop_num,Population,people,Population denominator used for rate calculation.
+age_group,Age group,category,Age category used in the 2024 age-sex incidence estimate.
+sex,Sex,category,"All sexes, female or male in the source age-sex estimate."
