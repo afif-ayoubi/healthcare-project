@@ -1,9 +1,0 @@
-{
-  "country_year_rows": 5347,
-  "countries_or_territories": 217,
-  "year_min": 2000,
-  "year_max": 2024,
-  "age_sex_rows": 8190,
-  "aggregate_rows": 175,
-  "data_note": "Country-level WHO-derived mirror; aggregate values may differ slightly from rounded figures in the published WHO 2025 report."
-}
