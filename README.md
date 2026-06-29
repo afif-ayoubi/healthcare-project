@@ -64,7 +64,16 @@ or copy `.streamlit/secrets.toml.example` to `.streamlit/secrets.toml` and repla
 
 | File or folder | Purpose |
 | --- | --- |
-| `app.py` | Main Streamlit dashboard. It loads the processed CSV files, builds the sidebar filters, renders all dashboard tabs, creates Plotly charts, shows metrics and tables, handles CSV download, and controls the optional password gate. |
+| `app.py` | Small Streamlit entrypoint. It configures the page, applies styles, runs the optional password gate, loads data, renders the sidebar, and calls each tab module. |
+| `dashboard/config.py` | App paths, page settings, tab labels, and shared color constants. |
+| `dashboard/styles.py` | Global CSS for the dashboard, including the rules that hide Streamlit toolbar/menu chrome. |
+| `dashboard/auth.py` | Optional `APP_PASSWORD` password gate. |
+| `dashboard/data.py` | Loads the four processed CSV files and returns the `DashboardData` object used by the app. |
+| `dashboard/filters.py` | Sidebar controls and current filter state. |
+| `dashboard/formatting.py` | Number, percent, rate, and percent-change helpers. |
+| `dashboard/figures.py` | Shared Plotly styling helper. |
+| `dashboard/layout.py` | Hero banner, current-scope caption, and footer. |
+| `dashboard/tabs/` | One renderer module per dashboard tab. |
 | `requirements.txt` | Runtime Python packages needed by Streamlit Cloud and local runs. |
 | `runtime.txt` | Pins Streamlit Cloud to Python 3.11 for dependency stability. |
 | `.streamlit/config.toml` | Streamlit configuration. |
@@ -87,3 +96,29 @@ data/processed/data_dictionary.csv
 ```
 
 `data/raw` is intentionally kept as reference, but it is not used by the deployed app.
+
+## Code structure
+
+The dashboard code is organized so `app.py` stays small and the implementation is easier to maintain:
+
+```text
+app.py
+dashboard/
+  auth.py
+  config.py
+  data.py
+  figures.py
+  filters.py
+  formatting.py
+  layout.py
+  styles.py
+  tabs/
+    executive.py
+    map.py
+    trends.py
+    age_sex.py
+    tb_hiv_resistance.py
+    forecast_data.py
+```
+
+Each tab receives the loaded dashboard data and the current sidebar selection state. This keeps the calculations and charts for each tab separate while preserving the same Streamlit app entrypoint for deployment.
