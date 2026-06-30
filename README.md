@@ -1,6 +1,6 @@
 # Global Tuberculosis Dashboard
 
-This is a Streamlit dashboard for exploring global tuberculosis burden, treatment-notification gaps, mortality, age and sex patterns, TB-HIV indicators, RR/MDR-TB burden, and simple trend projections.
+This is a one-page Streamlit dashboard for exploring global tuberculosis burden, treatment-notification gaps, mortality, age and sex patterns, TB-HIV indicators, and RR/MDR-TB burden through coordinated adjacent Plotly graphs.
 
 The repository is trimmed for Streamlit deployment. It keeps only the application code, runtime dependencies, required processed dashboard data, and raw source files kept as reference.
 
@@ -64,8 +64,8 @@ or copy `.streamlit/secrets.toml.example` to `.streamlit/secrets.toml` and repla
 
 | File or folder | Purpose |
 | --- | --- |
-| `app.py` | Small Streamlit entrypoint. It configures the page, applies styles, runs the optional password gate, loads data, renders the sidebar, and calls each tab module. |
-| `dashboard/config.py` | App paths, page settings, tab labels, and shared color constants. |
+| `app.py` | Small Streamlit entrypoint. It configures the page, applies styles, runs the optional password gate, loads data, renders the sidebar, and calls the one-page dashboard renderer. |
+| `dashboard/config.py` | App paths, page settings, and shared color constants. |
 | `dashboard/styles.py` | Global CSS for the dashboard, including the rules that hide Streamlit toolbar/menu chrome. |
 | `dashboard/auth.py` | Optional `APP_PASSWORD` password gate. |
 | `dashboard/data.py` | Loads the four processed CSV files and returns the `DashboardData` object used by the app. |
@@ -73,7 +73,8 @@ or copy `.streamlit/secrets.toml.example` to `.streamlit/secrets.toml` and repla
 | `dashboard/formatting.py` | Number, percent, rate, and percent-change helpers. |
 | `dashboard/figures.py` | Shared Plotly styling helper. |
 | `dashboard/layout.py` | Hero banner, current-scope caption, and footer. |
-| `dashboard/tabs/` | One renderer module per dashboard tab. |
+| `dashboard/one_page.py` | Coordinated one-page dashboard renderer for KPIs and adjacent interactive graphs. |
+| `dashboard/tabs/` | Legacy tab renderers retained as reusable reference modules, but not called by the app entrypoint. |
 | `requirements.txt` | Runtime Python packages needed by Streamlit Cloud and local runs. |
 | `runtime.txt` | Pins Streamlit Cloud to Python 3.11 for dependency stability. |
 | `.streamlit/config.toml` | Streamlit configuration. |
@@ -81,7 +82,7 @@ or copy `.streamlit/secrets.toml.example` to `.streamlit/secrets.toml` and repla
 | `data/processed/tb_country_year.csv` | Required by the app. Main country-year dataset used for maps, rankings, comparisons, trends, TB-HIV, RR/MDR-TB, and projections. |
 | `data/processed/tb_aggregates_year.csv` | Required by the app. Global and WHO-region aggregate metrics. |
 | `data/processed/tb_age_sex_2024.csv` | Required by the app. Age and sex estimates used in the age/sex dashboard tab. |
-| `data/processed/data_dictionary.csv` | Required by the app. Data dictionary displayed/downloaded from the dashboard. |
+| `data/processed/data_dictionary.csv` | Loaded with the processed data package for documentation and legacy data-access support. |
 | `data/raw/` | Reference/source backup only. These files are kept for transparency, but the deployed Streamlit app does not read them. |
 
 ## Data folder note
@@ -111,6 +112,7 @@ dashboard/
   filters.py
   formatting.py
   layout.py
+  one_page.py
   styles.py
   tabs/
     executive.py
@@ -121,4 +123,4 @@ dashboard/
     forecast_data.py
 ```
 
-Each tab receives the loaded dashboard data and the current sidebar selection state. This keeps the calculations and charts for each tab separate while preserving the same Streamlit app entrypoint for deployment.
+The one-page renderer receives the loaded dashboard data and the current sidebar selection state. The shared controls coordinate every graph on the page while keeping the Streamlit app entrypoint small for deployment.

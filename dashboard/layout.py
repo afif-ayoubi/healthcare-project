@@ -21,7 +21,7 @@ def render_hero() -> None:
 def render_scope_caption(state: SelectionState) -> None:
     st.caption(
         f"Current analytical scope: **{state.selection}** · trend window "
-        f"**{state.trend_range[0]}–{state.trend_range[1]}** · map/ranking year **{state.map_year}**"
+        f"**{state.trend_range[0]}–{state.trend_range[1]}** · snapshot year **{state.map_year}**"
     )
 
 

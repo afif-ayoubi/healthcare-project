@@ -20,12 +20,3 @@ PAGE_CONFIG = {
     "layout": "wide",
     "initial_sidebar_state": "expanded",
 }
-
-TAB_LABELS = [
-    "Executive overview",
-    "Global map",
-    "Trends & comparisons",
-    "Age & sex",
-    "TB–HIV & drug resistance",
-    "Forecast & data",
-]

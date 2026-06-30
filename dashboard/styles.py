@@ -28,16 +28,19 @@ def apply_global_styles() -> None:
         .eyebrow {{ font-weight: 700; text-transform: uppercase; letter-spacing: .12em; font-size: .73rem; color: #9EE7E5; }}
         .section-note {{ background: #EAF5F7; border-left: 4px solid {TEAL}; padding: .75rem 1rem; border-radius: 8px; color:{NAVY}; }}
         .warning-note {{ background: #FFF6ED; border-left: 4px solid {CORAL}; padding: .75rem 1rem; border-radius: 8px; color:{NAVY}; }}
-        .insight {{ background: white; border: 1px solid #DDE7EC; border-radius: 14px; padding: 1rem; height: 100%; box-shadow: 0 4px 16px rgba(11,31,51,.04); }}
+        .filter-guide {{ display:flex; flex-wrap:wrap; gap:.45rem; margin:.25rem 0 1.1rem 0; }}
+        .filter-chip {{ background:#EAF5F7; border:1px solid #CFE4EA; border-radius:999px; color:{NAVY}; font-size:.83rem; font-weight:700; padding:.34rem .65rem; }}
+        .section-head {{ margin:1.05rem 0 .4rem 0; }}
+        .section-head h3 {{ margin:0 0 .15rem 0; font-size:1.25rem; }}
+        .section-head p {{ margin:0; color:{SLATE}; font-size:.9rem; line-height:1.35; }}
+        .insight {{ background: white; border: 1px solid #DDE7EC; border-radius: 8px; padding: 1rem; height: 100%; box-shadow: 0 4px 16px rgba(11,31,51,.04); }}
         .insight b {{ color:{TEAL}; }}
-        [data-testid="stMetric"] {{ background:white; border:1px solid #DDE7EC; border-radius:14px; padding:.8rem 1rem; box-shadow:0 4px 14px rgba(11,31,51,.04); }}
+        [data-testid="stMetric"] {{ background:white; border:1px solid #DDE7EC; border-radius:8px; padding:.75rem .85rem; box-shadow:0 4px 14px rgba(11,31,51,.04); }}
         [data-testid="stMetricLabel"] {{ color:{SLATE}; font-weight:700; }}
-        [data-testid="stMetricValue"] {{ color:{NAVY}; font-weight:800; }}
+        [data-testid="stMetricValue"] {{ color:{NAVY}; font-weight:800; font-size:1.7rem; }}
         .smallprint {{ font-size:.82rem; color:{SLATE}; line-height:1.45; }}
         .footer {{ border-top:1px solid #DDE7EC; padding-top:1rem; color:{SLATE}; font-size:.8rem; }}
-        div[data-baseweb="tab-list"] {{ gap:.35rem; }}
-        button[data-baseweb="tab"] {{ background:white; border:1px solid #DDE7EC; border-radius:10px; padding:.45rem .75rem; }}
-        button[data-baseweb="tab"][aria-selected="true"] {{ background:#DDF2F2; color:{NAVY}; }}
+        [data-testid="stPlotlyChart"] {{ background:white; border:1px solid #E2EBF0; border-radius:8px; padding:.35rem; }}
         </style>
         """,
         unsafe_allow_html=True,
